@@ -1,7 +1,25 @@
 /* browser reset code */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+$header-bgclor: #ffab37;
+$main-bgclor: #ffd384;
+$footer-bgclor: #ffaec0;
+
+header {
+  background: $header-bgclor;
+  margin-top: 40px;
+}
+main {
+  background: $main-bgclor;
+}
+footer {
+  background: $footer-bgclor;
 }
